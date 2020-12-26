@@ -175,6 +175,8 @@ span a:active {
 }
 
 .header__content {
+  width: 680px;
+  margin: auto;
   text-align: center;
   margin-top: 169px;
   text-transform: uppercase;
