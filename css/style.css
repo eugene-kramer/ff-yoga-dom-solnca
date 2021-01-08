@@ -415,6 +415,10 @@ span a:active {
   height: 530px;
 }
 
+.slider__item:focus {
+  outline: none;
+}
+
 .slider__item::after {
   content: '';
   background-color: #424242;

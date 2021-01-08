@@ -30,4 +30,13 @@ $(document).ready(function(){
       arrows: true,
       dots: true
    })
+
+   let button = $('.btn')
+   button.on('click', function(){
+      Swal.fire({
+         text: 'Это демо-версия сайта, поэтому некоторые функции могут быть недоступны',
+         icon: 'info',
+         confirmButtonText: 'Хорошо!'
+         })
+   })
 });
